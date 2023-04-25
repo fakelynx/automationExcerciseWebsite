@@ -1,4 +1,4 @@
 package automationExcerciseWebsite;
 
-public class signupLoginPage {
+public class ProductsPage {
 }

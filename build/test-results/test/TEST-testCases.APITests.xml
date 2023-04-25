@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="testCases.APITests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-25T06:23:37" hostname="PERSONALTOTA" time="2.184">
+  <properties/>
+  <testcase name="verifyProductElementAttribute()" classname="testCases.APITests" time="2.184"/>
+  <system-out><![CDATA[Frozen Tops For Kids
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

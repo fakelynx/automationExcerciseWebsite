@@ -1,4 +1,4 @@
 package automationExcerciseWebsite;
 
-public class cartPage {
+public class CartPage {
 }
