@@ -1,6 +1,7 @@
 package testCases;
 
 import automationExcerciseWebsite.CartPage;
+import automationExcerciseWebsite.HomePage;
 import automationExcerciseWebsite.SignupLoginPage;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
@@ -16,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class UITests {
 
     WebDriver driver;
-    SignupLoginPage objSignupLoginPage;
+    HomePage objHomePage;
 
     @BeforeEach
     void setUp(){
@@ -28,6 +29,13 @@ public class UITests {
     void tearDown(){
         driver.manage().deleteAllCookies();
         driver.quit();
+    }
+
+    @Test
+    void verifyTitleWhenClickingLogo(){
+        objHomePage = new HomePage(driver);
+        objHomePage.clickOnLogo();
+        assertEquals("Automation Exercise",objHomePage.getTitle());
     }
 
 }
